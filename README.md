@@ -47,7 +47,12 @@ A few useful tools are provided in the toolbar for interacting with the graph.  
 Want to see what's going on inside LGTESTP3?  Double-clicking the application using the select tool will bring up its source.  Let's stick with the visual approach.  Right-click the LGTESTP3 application and select Mainframe Graphs->Program Callgraph.  You'll see another too-small graph:<br>
 <img src="images/lgtestp3-callgraph.png" width="50%" height="50%"><br>
 You should be starting to realize how you can drill down to smaller levels of detail.  For example, this callgraph shows SQL being executed and a file being updated.  Zoom in to see for yourself.<br>
-<img src="images/lgtestp3-callgraph-sql.png" width="50%" height="50%"> <img src="images/lgtestp3-callgraph-file.png" width="50%" height="50%"><br>
+<img src="images/lgtestp3-callgraph-sql.png" width="50%" height="50%"> <img src="images/lgtestp3-callgraph-file.png" width="25%" height="25%"><br>
+
+1. Find out where file KSDSPOLY is used
+Let's suppose we need to understand how the file KSDSPOLY shown in this callgraph is used.  It's as easy as right-clicking the file and selecting Files->Programs under Mainframe Reports->Where Used Reports.  This will generate a report document which will appear in another tab.<br>
+<img src="images/ksdspoly-report.png" width="50%" height="50%"><br>
+Page 5 of the report shows the number of occurrences of read, write, rewrites, and deletes performed on the file.  If you needed to know where this file was originally written from, now you know!
 
 
 ## Summary
