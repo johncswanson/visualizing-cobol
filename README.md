@@ -43,8 +43,11 @@ Right about now you might be wondering how this is any better than reading code.
 
 A few useful tools are provided in the toolbar for interacting with the graph.  Use one of the magnifying graphs to zoom in on the top of the graph.  You should see a series of COBOL applications.  You can use the mousepan tool (hand icon) to move around in the graph to see what the COBOL applications are called by.  For example, you can see that application `LGTESTP3` is called by CICS transaction `SSP3` (who comes up with these names anyway?):<br>
 <img src="images/callgraph-lgtestp3.png" width="50%" height="50%"><br>
+
 Want to see what's going on inside LGTESTP3?  Double-clicking the application using the select tool will bring up its source.  Let's stick with the visual approach.  Right-click the LGTESTP3 application and select Mainframe Graphs->Program Callgraph.  You'll see another too-small graph:<br>
 <img src="images/lgtestp3-callgraph.png" width="50%" height="50%"><br>
+You should be starting to realize how you can drill down to smaller levels of detail.  For example, this callgraph shows SQL being executed and a file being updated.  Zoom in to see for yourself.<br>
+<img src="images/lgtestp3-callgraph-sql.png" width="50%" height="50%"> <img src="images/lgtestp3-callgraph-file.png" width="50%" height="50%"><br>
 
 
 ## Summary
