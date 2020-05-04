@@ -22,8 +22,8 @@ Connect to your lab by following the instructions in the second e-mail.  We're g
 <img src="images/Ztrial-logo.png" width="503"/>
 
 1. Start the Z Trial wizard.<br>
-This lab environment includes multiple self-paced scenarios.  To get started, click on the Z Trial Wizard icon in the lower-left of the screen (a hexagon with the letter Z in it).  After the wizard launches you should find a list of the available scenarios:
-<img src="images/avail-scenarios.png">
+This lab environment includes multiple self-paced scenarios.  To get started, click on the Z Trial Wizard icon in the lower-left of the screen (a hexagon with the letter Z in it).  After the wizard launches you should find a list of the available scenarios:<br>
+<img src="images/avail-scenarios.png" width="50%"><br>
 Let's use the first scenario, `Assess and improve the maintainability of a COBOL application`.  The Wizard will cover additioanl material beyond what is covered in this tutorial.  Feel free to follow the Wizard's screens at your own pace.
 
 1. Launch IBM Developer for z/OS<br>
