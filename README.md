@@ -54,9 +54,8 @@ Let's suppose we need to understand how the file KSDSPOLY shown in this callgrap
 <img src="images/ksdspoly-report.png" width="50%" height="50%"><br>
 Page 5 of the report shows the number of occurrences of read, write, rewrites, and deletes performed on the file.  If you needed to know where this file was originally written from, now you know!
 
-
 ## Summary
-xx
+In this tutorial we've seen how to build an understanding of the end-to-end flow in an enterprise application.  We've gone from an eyestrain graph down to file-level actions, even if we did have to put up with crazy eight-character names.  There are additional scenarios available in your Z Trial lab environment.  Feel free to take advantage of them or make up your own scenarios as you see fit.
 
 ## Related Links
 - [IBM Z software trials](https://www.ibm.com/it-infrastructure/z/resources/trial)
