@@ -23,12 +23,12 @@ Connect to your lab by following the instructions in the second e-mail.  We're g
 
 1. Start the Z Trial wizard.<br>
 This lab environment includes multiple self-paced scenarios.  To get started, click on the Z Trial Wizard icon in the lower-left of the screen (a hexagon with the letter Z in it).  After the wizard launches you should find a list of the available scenarios:<br>
-<img src="images/avail-scenarios.png" width="50%"><br>
+<img src="images/avail-scenarios.png" width="50%" height="50%"><br>
 Let's use the first scenario, `Assess and improve the maintainability of a COBOL application`.  The Wizard will cover additioanl material beyond what is covered in this tutorial.  Feel free to follow the Wizard's screens at your own pace.
 
 1. Launch IBM Developer for z/OS<br>
 Start IBM Developer for z/OS (IDz) by clicking its icon in the bottom-left of the screen.  This will launch the Application Discovery browser in IDz.  You should see a list of applications that have previously been defined; for this exercise we will use the `JKEBank_V100` application.
-<img src="images/app-list.png">
+<img src="images/app-list.png" width="50%" height="50%">
 
 
 ## Summary
